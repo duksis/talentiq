@@ -22,10 +22,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-  talent_iq = TalentIQ.new(api_key: ENV['API_KEY'])
-  person = { name: 'Larry Page', email: 'larry.page@gmail.com', profile: 'https://www.linkedin.com/in/tlytle' }
-  talent_iq.call(person)
-)
+talent_iq = TalentIQ.new(api_key: ENV['API_KEY'])
+person = { name: 'Larry Page', email: 'larry.page@gmail.com', profile: 'https://www.linkedin.com/in/tlytle' }
+talent_iq.call(person)
 ```
 
 ## Development
